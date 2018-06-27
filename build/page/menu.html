@@ -1,0 +1,5 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Menu</title><link rel="stylesheet" href="../css/menu.css"><link rel="stylesheet" href="../css/fonts2/iconfont.css"></head><body><div class="wrap"><header class="header"><a href="javascript:history.back()"><i class="icon iconfont icon-xiangzuo"><b>目录</b></i></a> <a href="http://localhost:6060"><i class="icon iconfont icon-iconhuidaoshouye"></i></a></header><main class="main"><ul class="list"></ul></main></div></body><script class="text" type="text/x-handlebars-template">{{#each this}}
+    <li class="{{#if active}}active{{/if}}"><span>{{title}}</span>{{#if free}}<em style="color:#6cb378">免费</em>{{/if}}</li>
+    {{/each}}</script><script src="../js/lib/require.js"></script><script>require(['../js/config'], function() {
+        require(['menu'])
+    })</script></html>

@@ -1,0 +1,1 @@
+"use strict";define(["jquery","getUrl","text!template/detail.html","temp"],function(t,e,a,i){var n=e("id");t.ajax({url:"/api/detail?id="+n,dataType:"json",success:function(t){i(a,t,".main")}})});
