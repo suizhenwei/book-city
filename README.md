@@ -6,14 +6,12 @@ book-city
 
 > 技术栈
 
-gulp + require + handlebars + ES6/7 + ajax + sass + flex + canvas + 懒加载
+gulp + require + handlebars + ES6/7 + ajax + sass + flex +  懒加载
 
 > 项目运行
 
 ```
-    git clone git@github.com:typeofYh/6bookcity.git
-    npm install --save-dev
-    npm run build
+    git clone git@github.com:suizhenwei/book-city.git
 ```
 
 > 目录结构
@@ -75,6 +73,7 @@ book-city
     |    |    |    |-require.text.js
     |    |    |——config.js      //require配置文件
     |    |——css
+    |    |    |-fonts2  // iconfont图标
     |    |    |-index.css
     |    |    |-common.css
     |    |    |-detail.css
